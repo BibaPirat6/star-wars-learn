@@ -1,6 +1,3 @@
-const API = 'https://swapi.py4e.com/api/'
-const PEOPLE = 'people'
-
 export const getApiData = async (url) => {
   try {
     const res = await fetch(url)
@@ -17,7 +14,7 @@ export const getApiData = async (url) => {
   }
 }
 
-(async () => {
-  const body = await getApiData(API + PEOPLE);
-  console.log(body);
-})()
+// (async () => {
+//   const body = await getApiData(API + PEOPLE);
+//   console.log(body);
+// })()

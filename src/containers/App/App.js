@@ -1,10 +1,10 @@
-import cn from 'classnames'
 import styles from './App.module.css'
+import PeoplePage from '../PeoplePage';
 
 function App() {
   return (
     <>
-      <h1 className={cn(styles.header)}>hello</h1>
+      <PeoplePage/>
     </>
   );
 }
