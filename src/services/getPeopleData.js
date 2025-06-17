@@ -1,9 +1,7 @@
-import { HTTP, PEOPLE, API } from "../constants/api";
 
-const getId = (url, category) => {
+
+export const getPeopleId = (url) => {
   const splitUrl = url.split("/");
   const id = splitUrl[splitUrl.length - 2];
   return id;
 };
-
-export const getPeopleId = (url) => getId(url, PEOPLE);
