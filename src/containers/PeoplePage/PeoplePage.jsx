@@ -26,6 +26,8 @@ export default function PeoplePage() {
     getResource(API_PEOPLE);  
   }, []);
 
+  console.log(1)
+
   return (
     <>
       <ul>
